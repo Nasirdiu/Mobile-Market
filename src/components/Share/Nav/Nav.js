@@ -26,7 +26,7 @@ const Nav = () => {
 )
   return (
     <div>
-      <div class="navbar bg-base-200">
+      <div class="navbar bg-black text-white">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -87,7 +87,7 @@ const Nav = () => {
                 tabindex="0"
                 class="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow"
               >
-                <div class="card-body">
+                <div class="card-body text-black">
                   <span class="font-bold text-lg">5 Items</span>
                   <span class="text-info">Subtotal: $999</span>
                   <div class="card-actions">
@@ -104,7 +104,7 @@ const Nav = () => {
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black"
               >
                 <li>
                   <a class="justify-between">
