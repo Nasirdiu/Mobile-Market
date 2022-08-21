@@ -4,6 +4,7 @@ import Contact from "./components/Contact/Contact";
 import Blogs from "./components/Home/Blogs/Blogs";
 import Home from "./components/Home/Home/Home";
 import Login from "./components/Login/Login/Login";
+import Scrollbar from "./components/Scrollbar/Scrollbar";
 import Error from "./components/Share/Error/Error";
 
 import Footer from "./components/Share/Footer/Footer";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>   
         <Route path="*" element={<Error></Error>}></Route>   
       </Routes>
+      <Scrollbar></Scrollbar>
      <Footer></Footer>
     </div>
   );

@@ -18,6 +18,9 @@ const LatestPhone = () => {
       >
         Latest <span className="text-purple-400">Phone</span>
       </h1>
+      <div className="flex justify-center">
+      <progress class="progress w-64 mt-3 bg-purple-500 "></progress>
+      </div>
 
       <div className="mt-5">
         <Swiper
