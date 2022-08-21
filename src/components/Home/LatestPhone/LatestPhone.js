@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import LastsCard from "./LastsCard";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper";
+import "swiper/css";
 const LatestPhone = () => {
   const [last, setLast] = useState([]);
   useEffect(() => {
     fetch("lastphone.json")
       .then((res) => res.json())
-      .then((data) =>setLast(data));
+      .then((data) => setLast(data));
   }, []);
   return (
     <div>
@@ -16,11 +18,24 @@ const LatestPhone = () => {
       >
         Latest <span className="text-purple-400">Phone</span>
       </h1>
-      {
-        last.map(phone=><div key={phone.id}>
-            <LastsCard phone={phone}></LastsCard>
-        </div>)
-      }
+
+      <div className="mt-5">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          {last.map((phone) => (
+            <SwiperSlide key={phone.id}>
+              <LastsCard phone={phone}></LastsCard>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };

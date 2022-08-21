@@ -4,12 +4,13 @@ const LastsCard = ({ phone }) => {
   console.log(phone);
   return (
     <div className="">
-      <div class="card w-96 bg-base-200 shadow-xl">
+      <div class="card w-96 bg-base-200 max-h-96 shadow-xl">
         <figure class="px-10 pt-10">
           <img
             src={phone.img}
             alt=""
-            class="rounded-xl"
+
+            class="rounded-xl w-full h-52"
           />
         </figure>
         <div class="card-body items-center text-center">
