@@ -1,0 +1,27 @@
+ [
+    {
+      "id": "1",
+      "name": "Apple 13 pro max",
+      "price":"150000",
+      "img": "https://avatars.mds.yandex.net/i?id=d992ae2652eae672811ea9b870daed81-4289847-images-thumbs&n=13&exp=1"
+    },
+    {
+      "id": "2",
+      "name": "sony xperia",
+      "price":"10000",
+      "img": "https://vedroid.com/img/smartphones/sony-xperia-m4-aqua-dual/11.jpg"
+    },
+    {
+      "id": "3",
+      "name": "samsung note 9",
+      "price":"158000",
+      "img": "https://avatars.mds.yandex.net/i?id=4071a124de3fd729db0bc0af489360fc-5675359-images-thumbs&n=13&exp=1"
+    },
+    {
+      "id": "4",
+      "name": "Google",
+      "price":"120000",
+      "img": "https://yandex-images.clstorage.net/pDh5k1216/4b5b8dJ8/fczdL-n0WeoI6sn3SNTDggx2929huSe9Rm1XSIwZQqS6ByLJ-Pw4n9Xf_tKKEQkArnWgh4EhlEv19671H7azzRjYyFstNegO-ErZ93gEUjKcBkfvkTlm_TZI0jk5afYkOmbGiSjamyiSjc0VTEP-9yy0YMI0JIBaMMIOA-iX5gg83_wsyPYZraq6ynHJ1nMCXoby78CIM53zD2Qda6omoolUdK2f2Chb4l0-lI_SH_eOdcOjVeXxb_ACPJOa85QIvQ99X_uXaq-q-cqT-4XhEg0n4B-TSQGdgJxUPfmrxIKrBxU8TxnqasP8_lXece-FTpSQQ7YUMJwgkC6Qq7EUKv0_jA-o9fjuuEvZwivEIBM81vP8g7tQzfAftB3pCGXw2CenfB9JW0pTnay3LCJ9F291EvDFxdC98_KucqnQ9Fmv7Q4di2fpTKhpmdE75LHBTlUijvDbEu_CHVQtO9sFMrm2Zzxey5iZ4ixNlT4Rn9SPR5CQNAdyXrOAPkAJ4yaYbJyeLmrH2bw4usqTG4Yx0K8EQeyguRItkd6ln_tL9iPoJQUe3GsrqDIPzXX_g56U7wZx03X3sQ6wkb4CKZNWOP9-HRwKhVmdqon4o0n30eFe1bGcw9rSbeCuh88ZSIXjaAUkjlzr-lvB7q_XrQFd9QzVYpKFJIB9UsN8sjmiRPp8nxw-6dcKbPoaGrHYJENCz2cyDSCrU66inxUceUiHsfq19O1cyGgL0w_cZ_0SPHXsdHADdPZA7iIBnjJpATZY7e7dTvuG601JmYqiyyXjsizVw-_xCzP9Iw_1j-tKh4KY5RVP7_npiuCOfoeOAg_lLPVRwEQV4v6xsKzAi9F16gysnh6L1vmt-ri4kon1guJ9ZhKvA9gQbwP8t557mLXhCyekDl9Lq5nQHL_3r9DsFPw1IXHFxhLc8lBuIpswx-j_nR48OEXrvXkK6PO593EQjYZQ3WLJYu0gr3Yf2tm2g"
+    }
+    
+  ]
