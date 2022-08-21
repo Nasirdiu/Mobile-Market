@@ -2,28 +2,29 @@ import React from "react";
 import img from "../../../assets/icon/20273cfda041b47e89e057a4c2296928.png";
 import { Link } from "react-router-dom";
 const Nav = () => {
-    const menuItems = (
-        <>
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact Us</Link>
-          </li>
-          
-            <li>
-              <Link to="/dashboard">Dashboard</Link>
-            </li>
-          
-          
-        </>
-)
+  const menuItems = (
+    <>
+      <li>
+        <Link to="/home">Home</Link>
+      </li>
+      <li>
+        <Link to="/blogs">Blogs</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact Us</Link>
+      </li>
+
+      <li>
+        <Link to="/dashboard">Dashboard</Link>
+      </li>
+      <li>
+        <Link to="/login">Login</Link>
+      </li>
+    </>
+  );
   return (
     <div>
       <div class="navbar bg-black text-white">
@@ -57,9 +58,7 @@ const Nav = () => {
           </a>
         </div>
         <div class="navbar-end hidden lg:flex">
-          <ul class="menu menu-horizontal p-0">
-            {menuItems}
-          </ul>
+          <ul class="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
         <div class="">
           <div class="flex-none">
