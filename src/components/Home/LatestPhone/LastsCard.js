@@ -1,7 +1,6 @@
 import React from "react";
 
 const LastsCard = ({ phone }) => {
-  console.log(phone);
   return (
     <div className="">
       <div class="card w-96 bg-base-200 max-h-96 shadow-xl">

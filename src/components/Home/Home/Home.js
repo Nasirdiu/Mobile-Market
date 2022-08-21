@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "../../Map/Map";
 import BrandName from "../BrandName/BrandName";
 import Faq from "../Faq/Faq";
 import LatestPhone from "../LatestPhone/LatestPhone";
@@ -11,6 +12,7 @@ const Home = () => {
       <LatestPhone></LatestPhone>
       <Faq></Faq>
       <BrandName></BrandName>
+      {/* <Map></Map> */}
     </div>
   );
 };
