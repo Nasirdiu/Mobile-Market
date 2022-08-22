@@ -10,9 +10,13 @@ const Faq = () => {
     <div className="bg-base-100 mt-5">
       <div className=" lg:container lg:mx-auto lg:py-16 md:py-12 md:px-6 py-12 px-4">
         <h1 className="text-center lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 font-semibold ">
-        <p className="">Frequently Asked<span className="text-orange-500">  Questions</span></p>
+          <p className="">
+            Frequently Asked<span className="text-orange-500"> Questions</span>
+          </p>
         </h1>
-
+        <div className="flex justify-center">
+          <progress class="progress w-96 mt-3 bg-pink-500 "></progress>
+        </div>
         <div className="  lg:mt-12 bg-gray-100 md:mt-10 mt-8 lg:py-7 lg:px-6 md:p-6 py-6 px-4 lg:w-8/12 w-full mx-auto ">
           <div className=" flex justify-between md:flex-row flex-col ">
             <div className=" md:mb-0 mb-8 md:text-left text-center">
